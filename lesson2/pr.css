@@ -1,0 +1,62 @@
+/* * {
+    font-size: 30px;
+} */
+#div-1 {
+    color: green;
+    font-style: italic;
+}
+.class-1 {
+    color: red;
+    text-transform: uppercase;
+}
+.table-1 {
+    width: 500px;
+    border:1px solid gray;
+    border-collapse: collapse;
+}
+.tr-1 {
+    border-bottom: 1px solid gray;
+    background-color: blue;
+    color: white;
+    font-weight: 700;
+    text-align: center;
+}
+.tr-2 {
+    border-bottom: 10px solid green;
+
+}
+.tr-3 {
+    border-bottom: 1px solid gray;
+    background-color: gray;
+}
+.tr-4 {
+    border-bottom: 1px solid gray;
+
+}
+.tr-5 {
+    border-bottom: 1px solid gray;
+    background-color: gray;
+}
+#td-1 {
+    width: 40%;
+}
+#box-1 {
+    background-color: cornflowerblue;
+    border: solid gray;
+    width: 600px;
+    padding: 20px;
+}
+.input-1 {
+    height: 30px;
+    width: 300px;
+    border: solid gray;
+    border-radius: 5px;
+
+}
+#button-1 {
+    width: 120px;
+    height: 30px;
+    background-color: green;
+    color: white;
+    border-radius: 5px;
+}

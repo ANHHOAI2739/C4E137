@@ -1,0 +1,55 @@
+
+h1 {
+    color: red;
+}
+p {
+    color: green;
+}
+
+#special-heading {
+    color: orange;
+}
+
+.text-blue {
+    color: blue;
+}
+* {
+    color: chocolate;
+}
+
+div {
+    color: blueviolet !important;
+}
+.text-brown {
+    color: brown;
+}
+#my-div {
+color: pink;
+}
+
+/* độ ưu tiên
+1. chỗ nào có !imprtant
+2. inline style
+3. độ ưu tiên của selector
+4. internal>external */
+/* những thuộc tính - giá trịn định dạng text */
+#test-text {
+    font-size: medium; 
+    font-style: italic;
+    text-decoration: line-through;
+    font-family: 'Arial';
+    text-transform: uppercase;
+}
+
+/* những thuộc tính - giá trị định dạng khối nội dung (box model) */
+#my-box {
+    background-color:pink;
+    width: 300px;
+    height: 170px;
+    
+    border: 10px solid green;
+    border-radius: 10px;
+   
+    padding: 20px;
+    box-sizing: border-box;
+}
