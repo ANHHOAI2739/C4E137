@@ -1,0 +1,90 @@
+body {
+    margin: 0;
+}
+.header1 {
+    display: flex;
+    position: sticky;
+    top: 0;
+    left: 0;
+    height: 60px;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    background-color: yellow;
+    padding: 10px 30px;
+    box-sizing: border-box;
+}
+.logo {
+    border: 1px solid;
+    padding: 10px 15px;
+}
+
+.menu {
+    display: flex;
+
+}
+.menu-item {
+    padding: 10px 15px;
+    border: 1px solid;
+}
+
+.header2 {
+    display: flex;
+    position: sticky;
+    left: 0;
+    height: 60px;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    background-color: khaki;
+    padding: 10px 30px;
+    box-sizing: border-box;
+    margin-top: 50px;
+}
+.left {
+    display: flex;
+    align-items: center;
+}
+.b-name {
+    margin-left: 15px;
+    font-weight: bold;
+    color: blue;
+}
+.menu2 {
+    display: flex;
+}
+.menu-item2 {
+    color: blue;
+    padding: 10px 15px;
+    
+}
+.log-in {
+    border: 1px solid green;
+}
+
+.header-3 {
+    margin-top: 50px;
+    display: flex;
+    left: 0;
+    background-color: yellow;
+    height: 60px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 30px;
+    box-sizing: border-box;
+}
+.left-2 {
+    display: flex;
+    align-items: center;
+}
+.menu-item-3 {
+    color: blue;
+    padding: 10px 15px;
+}
+.circle {
+    border: 1px solid blue;
+    width: 10px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: lightblue;
+}

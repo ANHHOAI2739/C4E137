@@ -1,0 +1,65 @@
+/* .my-div {
+    display: inline-block;
+    width: 200px;
+    height: 200px;
+    border: 1px solid black;
+} */
+
+
+/* .flexbox {
+    width: 700px;
+    height: 500px;
+
+    display: flex;  
+    border: 1px solid black;
+    flex-direction: row;
+    /* align-items: center;
+    justify-content: flex-end; */
+/* }
+.flexbox-item {
+    width: 80px;
+    height: 80px;
+    border: 1px solid green;
+    padding: 10px;
+    box-sizing: border-box;
+}
+.flexbox-item.my-item {
+    width: 200px;
+    height: 200px;
+} */ 
+
+.footer {
+    height: 200px;
+    background-color: darkblue;
+    color: white;
+    padding: 10px;
+}
+
+.footer-content-1 {
+    display: flex;
+    justify-content: space-between;
+    background-color: brown;
+    padding: 10px;
+
+    align-items: stretch;
+    height: 60px;
+}
+
+.footer-button-group {
+    background-color: green;
+    width: 60%;
+}
+
+.footer-contact {
+    background-color: chartreuse;
+    width: 30%;
+}
+.footer-content-2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.footer-about {
+    width: 80%;
+    text-align: center;
+}
