@@ -1,0 +1,298 @@
+body {
+    margin: 0px;
+}
+.header {
+    width: 75%;
+    margin: auto;
+    margin-bottom: 3%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 2rem;
+}
+.header .header-left {
+    display: flex;
+    flex-direction: row ;
+    align-items: center;
+}
+
+.header .list-button {
+    border: none;
+    background-color: white;
+}
+
+.header .header-item {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 15%;
+
+}
+.header .header-item .header-button {
+    border: none;
+    background-color: white;
+    width: 30%;
+    aspect-ratio: 1/1;
+}
+.header .header-item .header-avatar {
+    width: 20%;
+    aspect-ratio: 1/1;
+    border: 1px solid black;
+    border-radius: 50%;
+
+}
+.text {
+    margin-left: 20%;
+    margin-bottom: 3%;
+    display: flex;
+    font: 2rem sans-serif;
+
+}
+.back {
+    border: none;
+    background-color: white;
+    margin-right: 3%;
+}
+
+
+.card-item {
+    display: flex;
+    background-color: orange;
+    border-radius: 15px;
+    box-sizing: border-box;
+}
+
+.card-item .card-left {
+    width: 50%;
+    border-radius: 15px;
+    box-sizing: border-box;
+    padding: 4%;
+    background-color: #E2E2E2;
+}
+
+.card-item .card-left .card-avatar {
+    width: 100%;
+    aspect-ratio: 1/1;
+    border-radius: 15px;
+    margin-bottom: 9%;
+}
+
+.card-item .card-left .card-call {
+    display: flex;
+    justify-content: space-around;
+}
+
+.card-item .card-left .card-call .card-call-item {
+    max-width: 100%;
+    width: 2vw;
+    aspect-ratio: 1/1;
+    border: none;
+    background-color: black;
+    color: white;
+    border-radius: 50%;
+    font-size: 1vw;
+}
+
+.card-item .card-right {
+    aspect-ratio: 1/1;
+    width: 50%;
+    padding-top: 4%;
+    padding-left: 3%;
+    padding-bottom: 4%;
+    box-sizing: border-box;
+}
+
+.card-item .card-right .card-name {
+    font-size: 2.5vw;
+    font-weight: bold;
+}
+
+.card-item .card-right .card-language {
+    display: flex;
+    gap: 6%;
+}
+
+.card-contact {
+    display: flex;
+    justify-content: space-around;
+}
+
+.card-contact-item {
+    max-width: 100%;
+    width: 2vw;
+    aspect-ratio: 1/1;
+    border: none;
+    background-color: white;
+    color: black;
+    border-radius: 50%;
+    font-size: 1vw;
+}
+
+.card-info {
+    font-size: 1vw;
+    aspect-ratio: 1/1;
+    margin-bottom: 1%;
+    display: flex;
+    flex-direction: column;
+    gap: 10%;
+}
+
+.card-list {
+    width: 60%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-column-gap: 2%;
+    grid-row-gap: 2%;
+}
+
+@media (min-width: 720px) and (max-width: 1024px) {
+    .card-item .card-right .card-language, .card-location {
+        display: none;
+    }
+
+    .card-item .card-right .card-name {
+        font-size: 3vw;
+        font-weight: bold;
+    }
+    .card-info {
+        font-size: 1.6vw;
+        aspect-ratio: 1/1;
+        margin-bottom: 1%;
+        display: flex;
+        flex-direction: column;
+        gap: 10%;
+    }
+    .card-contact-item {
+        max-width: 100%;
+        width: 2.5vw;
+        aspect-ratio: 1/1;
+        border: none;
+        background-color: white;
+        color: black;
+        border-radius: 50%;
+        font-size: 1vw;
+    }
+    .card-item .card-left .card-call .card-call-item {
+        max-width: 100%;
+        width: 2.5vw;
+        aspect-ratio: 1/1;
+        border: none;
+        background-color: black;
+        color: white;
+        border-radius: 50%;
+        font-size: 1vw;
+    }
+}
+@media (min-width: 510px) and (max-width: 719px) {
+    .header .header-item {
+        display: none;
+    }
+    .search {
+        display: none;
+    }
+    .card-item .card-right .card-language, .card-location {
+        display: block;
+    }
+
+    .card-list {
+        width: 60%;
+        margin: auto;
+        display: grid;
+        grid-template-columns: auto;
+        grid-column-gap: 2%;
+        grid-row-gap: 2%;
+    }
+
+    .card-item .card-right .card-name {
+        font-size: 5vw;
+        font-weight: bold;
+    }
+    .card-info {
+        font-size: 2.2vw;
+        aspect-ratio: 1/1;
+        margin-bottom: 1%;
+        display: flex;
+        flex-direction: column;
+        gap: 7%;
+    }
+    .card-contact-item {
+        max-width: 100%;
+        width: 4vw;
+        aspect-ratio: 1/1;
+        border: none;
+        background-color: white;
+        color: black;
+        border-radius: 50%;
+        font-size: 2vw;
+    }
+    .card-item .card-left .card-call .card-call-item {
+        max-width: 100%;
+        width: 4vw;
+        aspect-ratio: 1/1;
+        border: none;
+        background-color: black;
+        color: white;
+        border-radius: 50%;
+        font-size: 2vw;
+    }
+}
+
+@media screen and (max-width: 509px) {
+    .header .header-item {
+        display: none;
+    }
+    .search {
+        display: none;
+    }
+    .card-item .card-right .card-language, .card-location {
+        display: block;
+    }
+    .card-item .card-right .card-language, .card-location {
+        display: none;
+    }
+
+    .card-list {
+        width: 60%;
+        margin: auto;
+        display: grid;
+        grid-template-columns: auto;
+        grid-column-gap: 2%;
+        grid-row-gap: 2%;
+    }
+
+    .card-item .card-right .card-name {
+        font-size: 6vw;
+        font-weight: bold;
+    }
+    .card-info {
+        font-size: 4vw;
+        aspect-ratio: 1/1;
+        margin-bottom: 1%;
+        display: flex;
+        flex-direction: column;
+        gap: 7%;
+    }
+    .card-contact-item {
+        max-width: 100%;
+        width: 5vw;
+        aspect-ratio: 1/1;
+        border: none;
+        background-color: white;
+        color: black;
+        border-radius: 50%;
+        font-size: 2.5vw;
+    }
+    .card-item .card-left .card-call .card-call-item {
+        max-width: 100%;
+        width: 5vw;
+        aspect-ratio: 1/1;
+        border: none;
+        background-color: black;
+        color: white;
+        border-radius: 50%;
+        font-size: 2.5vw;
+    }
+}
