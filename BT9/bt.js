@@ -70,6 +70,3 @@ s = [234, 23854, 32478635, "chuỗi text", 3678]
 //     if(min.length > text.length) min = text;
 // }
 // console.log(min);
-
-let chuoiText = s.filter(item => item = Text);
-console.log(chuoiText);
