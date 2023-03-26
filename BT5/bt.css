@@ -88,14 +88,15 @@ body {
 }
 
 .card-item .card-left .card-call .card-call-item {
-    max-width: 60%;
-    width: 20%;
+    /* max-width: 60%;
+    width: 20%; */
     aspect-ratio: 1/1;
     border: none;
     background-color: black;
     color: white;
     border-radius: 50%;
     box-sizing: border-box;
+    font-size: 2vw;
 }
 
 .card-item .card-right {
@@ -106,7 +107,7 @@ body {
 }
 
 .card-item .card-right .card-name {
-    font-size: 2rem;
+    font-size: 4vw;
     font-weight: bold;
 }
 
@@ -153,5 +154,21 @@ body {
 @media screen and (max-width: 720px) {
     .card-item .card-right .card-language, .card-location {
         display: none;
+    }
+}
+
+@media screen and (max-width: 360px) {
+    .card-list {
+        max-width: 60%;
+        margin-left: 20%;
+        margin-right: 20%;
+        display: grid;
+        grid-template-columns: auto;
+        grid-column-gap: 2%;
+        grid-row-gap: 2%;
+    }
+    .card-item .card-right .card-language, .card-location {
+        display: none;
+        font-size: 2vw;
     }
 }
